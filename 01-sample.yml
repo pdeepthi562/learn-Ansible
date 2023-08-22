@@ -3,6 +3,6 @@
   become: true
   tasks:
     -name: Install nginx
-     ansible.builtin.yum:
+    ansible.builtin.yum:
        name: httpd
        state: latest
