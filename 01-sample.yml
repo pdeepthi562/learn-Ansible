@@ -8,8 +8,8 @@
        state: latest
 
 
-    - name: start nginx
+    - name: start Nginx
       ansible.builtin.systemd:
         name: nginx
         state: started
-        enable: yes
+        enabled: yes
