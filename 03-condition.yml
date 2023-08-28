@@ -1,0 +1,12 @@
+- name: Demo on conditions
+  hosts: all
+  connection: local
+  tasks:
+    - name: print fruit name
+      ansible.builtin.debug:
+        msg: fruit name -Apple
+
+    - name: print Vegetable name
+      ansible.builtin.debug:
+        msg: Vegetable name -carrot
+
