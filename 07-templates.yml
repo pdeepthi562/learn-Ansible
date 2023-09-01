@@ -6,5 +6,5 @@
   tasks:
     - ansible.builtin.template:
         src: test.txt
-        dest: /temp/test.txt
+        dest: /tmp/test.txt
 
